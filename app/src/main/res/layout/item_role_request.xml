@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="@color/surface_light"
+    android:layout_marginTop="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+        <TextView
+            android:id="@+id/reqShopName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shop Name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary_light" />
+
+        <TextView
+            android:id="@+id/reqCategoryLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category • Location"
+            android:textSize="13sp"
+            android:textColor="@color/text_secondary_light"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/approveButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Approve"
+                android:backgroundTint="@color/primary_green"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/rejectButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Reject"
+                android:backgroundTint="@color/error_red" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

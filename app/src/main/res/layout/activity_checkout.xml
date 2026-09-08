@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light"
+    android:layout_marginTop="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:background="@color/surface_light"
+            android:elevation="4dp">
+
+            <ImageButton
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_close_clear_cancel"
+                android:background="@android:color/transparent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Checkout"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary_light"
+                android:paddingStart="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order Type"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary_light"
+                android:layout_marginBottom="8dp" />
+
+            <RadioGroup
+                android:id="@+id/orderTypeGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <RadioButton
+                    android:id="@+id/takeawayRadio"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Takeaway"
+                    android:textColor="@color/text_primary_light"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:id="@+id/deliveryRadio"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Delivery"
+                    android:textColor="@color/text_primary_light" />
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/deliveryAddressInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Delivery Address (Room / Hostel Block)"
+                android:padding="14dp"
+                android:textColor="@color/text_primary_light"
+                android:textColorHint="@color/text_secondary_light"
+                android:background="@drawable/bg_input_field"
+                android:visibility="gone"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order Summary"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary_light"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/orderSummaryText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="14sp"
+                android:textColor="@color/text_primary_light"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/checkoutTotalText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total: ₹0"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary_light"
+                android:layout_marginBottom="20dp" />
+
+            <Button
+                android:id="@+id/placeOrderButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Place Order"
+                android:padding="16dp"
+                android:backgroundTint="@color/primary_green" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

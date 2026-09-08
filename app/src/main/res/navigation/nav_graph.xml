@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.campusmart.ui.home.HomeFragment"
+        android:label="Home" />
+
+    <fragment
+        android:id="@+id/ordersFragment"
+        android:name="com.example.campusmart.ui.orders.OrdersFragment"
+        android:label="Orders" />
+
+    <fragment
+        android:id="@+id/marketplaceFragment"
+        android:name="com.example.campusmart.ui.marketplace.MarketplaceFragment"
+        android:label="Marketplace" />
+
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.campusmart.ui.cart.CartFragment"
+        android:label="Cart" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.campusmart.ui.profile.ProfileFragment"
+        android:label="Profile" />
+    <fragment
+        android:id="@+id/vendorDetailFragment"
+        android:name="com.example.campusmart.ui.vendordetail.VendorDetailFragment"
+        android:label="Vendor Detail" />
+
+</navigation>
