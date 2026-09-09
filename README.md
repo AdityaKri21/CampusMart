@@ -5,7 +5,9 @@
 CampusMart is a campus-specific marketplace and commerce app built for students and campus vendors. It brings food ordering, shopping, printing services, and student-to-student resale into a single platform, with role-based access for Students, Vendors, and Admins.
 
 Built as a full end-to-end native Android application — Kotlin backend logic, XML-based UI, and Firebase as the cloud backend.
+<p align="center">
 <img width="250" height="250" alt="CampusMart" src="https://github.com/user-attachments/assets/5b87880e-3b50-4e19-8241-b9e8853c37ed" />
+</p>
 
 ---
 
