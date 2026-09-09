@@ -28,8 +28,7 @@ Built as a full end-to-end native Android application — Kotlin backend logic, 
   <img width="200" height="400" alt="home" src="https://github.com/user-attachments/assets/ebfeb71b-eff7-4794-b153-0854c5cbfeab" />
   <img width="200" height="400" alt="menu" src="https://github.com/user-attachments/assets/e6287354-0018-4739-a542-d28fc6302609" />
   <img width="200" height="400" alt="cart" src="https://github.com/user-attachments/assets/9a44e04e-91a6-4072-9d5f-e369d1a23e24" />
-
-  
+---  
   <img width="200" height="400" alt="checkout" src="https://github.com/user-attachments/assets/bb0033b4-fcc5-49a7-81dc-91d29afda393" />
   <img width="200" height="400" alt="marketplace" src="https://github.com/user-attachments/assets/49074925-0cf4-490e-9a85-2f0c7caef8ea" />
   <img width="200" height="400" alt="orderHistory" src="https://github.com/user-attachments/assets/0228f8f2-f3e3-47f8-999d-903c967779d0" />
@@ -43,10 +42,10 @@ Built as a full end-to-end native Android application — Kotlin backend logic, 
 - View and manage incoming orders, split into **Ongoing** and **Completed**
 - Progress orders through a defined status lifecycle: `Placed → Accepted → Preparing → Ready → Completed`
 
-  <img width="720" height="1600" alt="vendor dashboard" src="https://github.com/user-attachments/assets/7fae6d65-1c2c-4a33-90b8-401f76726007" />
-  <img width="720" height="1600" alt="manageMenu" src="https://github.com/user-attachments/assets/e2177c79-fbf2-4ef8-b44d-7ee68c7b6938" />
-  <img width="720" height="1600" alt="ongoingOrders" src="https://github.com/user-attachments/assets/7670a0dc-64f5-42f3-a80f-564f7c3c5f31" />
-  <img width="720" height="1600" alt="completed Orders" src="https://github.com/user-attachments/assets/f7069945-6eb9-4af8-b32e-1a44092351c0" />
+  <img width="200" height="400" alt="vendor dashboard" src="https://github.com/user-attachments/assets/7fae6d65-1c2c-4a33-90b8-401f76726007" />
+  <img width="200" height="400" alt="manageMenu" src="https://github.com/user-attachments/assets/e2177c79-fbf2-4ef8-b44d-7ee68c7b6938" />
+  <img width="200" height="400" alt="ongoingOrders" src="https://github.com/user-attachments/assets/7670a0dc-64f5-42f3-a80f-564f7c3c5f31" />
+  <img width="200" height="400" alt="completed Orders" src="https://github.com/user-attachments/assets/f7069945-6eb9-4af8-b32e-1a44092351c0" />
 
 
 ### For Admins
@@ -54,7 +53,7 @@ Built as a full end-to-end native Android application — Kotlin backend logic, 
 - Approving a request automatically provisions a Vendor ID and creates the corresponding vendor storefront
 - (Bootstrap) First admin account is provisioned manually via Firebase Console; that admin can promote others from within the app
 
-  <img width="720" height="1600" alt="adminDashboard" src="https://github.com/user-attachments/assets/f49b2561-f920-4d13-9e38-4897f36483b3" />
+  <img width="200" height="400" alt="adminDashboard" src="https://github.com/user-attachments/assets/f49b2561-f920-4d13-9e38-4897f36483b3" />
   
 
 ### App-wide
