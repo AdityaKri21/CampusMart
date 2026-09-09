@@ -30,12 +30,12 @@ Built as a full end-to-end native Android application — Kotlin backend logic, 
   <img width="200" height="400" alt="home" src="https://github.com/user-attachments/assets/ebfeb71b-eff7-4794-b153-0854c5cbfeab" />
   <img width="200" height="400" alt="menu" src="https://github.com/user-attachments/assets/e6287354-0018-4739-a542-d28fc6302609" />
   <img width="200" height="400" alt="cart" src="https://github.com/user-attachments/assets/9a44e04e-91a6-4072-9d5f-e369d1a23e24" />
-  <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <img width="200" height="400" alt="checkout" src="https://github.com/user-attachments/assets/bb0033b4-fcc5-49a7-81dc-91d29afda393" />
   <img width="200" height="400" alt="marketplace" src="https://github.com/user-attachments/assets/49074925-0cf4-490e-9a85-2f0c7caef8ea" />
   <img width="200" height="400" alt="orderHistory" src="https://github.com/user-attachments/assets/0228f8f2-f3e3-47f8-999d-903c967779d0" />
   <img width="200" height="400" alt="profile" src="https://github.com/user-attachments/assets/38af2d10-d5e3-41ac-ab2f-f018fe5f7ef2" />
-</p>
+  </p>
 
 ### For Vendors
 - Full **Vendor Dashboard** accessible after admin approval
