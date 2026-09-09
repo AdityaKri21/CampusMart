@@ -1,6 +1,6 @@
-# CampusMart
+<p align="center"> # CampusMart </p>
 
-**Your Campus, Everything You Need.**
+<p align="center">**Your Campus, Everything You Need.**</p>
 
 CampusMart is a campus-specific marketplace and commerce app built for students and campus vendors. It brings food ordering, shopping, printing services, and student-to-student resale into a single platform, with role-based access for Students, Vendors, and Admins.
 
@@ -9,7 +9,7 @@ Built as a full end-to-end native Android application — Kotlin backend logic, 
 <img width="250" height="250" alt="CampusMart" src="https://github.com/user-attachments/assets/5b87880e-3b50-4e19-8241-b9e8853c37ed" />
 </p>
 
----
+
 
 ## Features
 
@@ -25,7 +25,7 @@ Built as a full end-to-end native Android application — Kotlin backend logic, 
 - Request elevated access (Vendor or Admin) directly from their profile
 - Edit personal profile details (phone, room number, hostel block)
 
-  
+  <p align="center">
   <img width="200" height="400" alt="login" src="https://github.com/user-attachments/assets/e2895284-047f-4dc7-8e62-2da20464c821" />
   <img width="200" height="400" alt="home" src="https://github.com/user-attachments/assets/ebfeb71b-eff7-4794-b153-0854c5cbfeab" />
   <img width="200" height="400" alt="menu" src="https://github.com/user-attachments/assets/e6287354-0018-4739-a542-d28fc6302609" />
@@ -35,7 +35,7 @@ Built as a full end-to-end native Android application — Kotlin backend logic, 
   <img width="200" height="400" alt="marketplace" src="https://github.com/user-attachments/assets/49074925-0cf4-490e-9a85-2f0c7caef8ea" />
   <img width="200" height="400" alt="orderHistory" src="https://github.com/user-attachments/assets/0228f8f2-f3e3-47f8-999d-903c967779d0" />
   <img width="200" height="400" alt="profile" src="https://github.com/user-attachments/assets/38af2d10-d5e3-41ac-ab2f-f018fe5f7ef2" />
-
+</p>
 
 ### For Vendors
 - Full **Vendor Dashboard** accessible after admin approval
@@ -44,19 +44,21 @@ Built as a full end-to-end native Android application — Kotlin backend logic, 
 - View and manage incoming orders, split into **Ongoing** and **Completed**
 - Progress orders through a defined status lifecycle: `Placed → Accepted → Preparing → Ready → Completed`
 
+  <p align="center">
   <img width="200" height="400" alt="vendor dashboard" src="https://github.com/user-attachments/assets/7fae6d65-1c2c-4a33-90b8-401f76726007" />
   <img width="200" height="400" alt="manageMenu" src="https://github.com/user-attachments/assets/e2177c79-fbf2-4ef8-b44d-7ee68c7b6938" />
   <img width="200" height="400" alt="ongoingOrders" src="https://github.com/user-attachments/assets/7670a0dc-64f5-42f3-a80f-564f7c3c5f31" />
   <img width="200" height="400" alt="completed Orders" src="https://github.com/user-attachments/assets/f7069945-6eb9-4af8-b32e-1a44092351c0" />
-
+  </p>
 
 ### For Admins
 - Review and approve/reject incoming **Vendor access requests**
 - Approving a request automatically provisions a Vendor ID and creates the corresponding vendor storefront
-- (Bootstrap) First admin account is provisioned manually via Firebase Console; that admin can promote others from within the app
+- (Bootstrap) admin account is provisioned manually via Firebase Console.
 
+  <p align="center">
   <img width="200" height="400" alt="adminDashboard" src="https://github.com/user-attachments/assets/f49b2561-f920-4d13-9e38-4897f36483b3" />
-  
+  </p>
 
 ### App-wide
 - Full **light and dark mode** support across every screen
