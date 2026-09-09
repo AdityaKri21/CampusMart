@@ -22,6 +22,8 @@ Built as a full end-to-end native Android application — Kotlin backend logic, 
 - Buy and sell used items (books, electronics, furniture, cycles, etc.) in the **Student Marketplace**, including seller contact details on request
 - Request elevated access (Vendor or Admin) directly from their profile
 - Edit personal profile details (phone, room number, hostel block)
+
+  
   <img width="200" height="400" alt="login" src="https://github.com/user-attachments/assets/e2895284-047f-4dc7-8e62-2da20464c821" />
   <img width="200" height="400" alt="home" src="https://github.com/user-attachments/assets/ebfeb71b-eff7-4794-b153-0854c5cbfeab" />
   <img width="200" height="400" alt="menu" src="https://github.com/user-attachments/assets/e6287354-0018-4739-a542-d28fc6302609" />
