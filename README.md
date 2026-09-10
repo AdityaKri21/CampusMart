@@ -142,8 +142,8 @@ app/src/main/java/com/example/campusmart/
 4. Set Firestore to test mode for local development, or configure Security Rules (see note below)
 5. Run the app
 
-### Bootstrapping the first Admin account
-Sign up normally through the app, then manually change that user's `role` field from `"student"` to `"admin"` in the Firestore Console (`users` collection). All subsequent admins can be promoted from within the app via the role-request approval flow.
+### Bootstrapping Admin account
+Sign up normally through the app, then manually change that user's `role` field from `"student"` to `"admin"` in the Firestore Console (`users` collection).
 
 ---
 
